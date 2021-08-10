@@ -1,0 +1,15 @@
+GET http://localhost:3000/read
+
+
+####
+
+POST http://localhost:3000/append
+Content-Type: application/json
+
+{
+    "Slid":4,
+    "Name":"Ankur"
+}
+
+
+###
